@@ -1,3 +1,13 @@
+# Coding Challege
+
+Use this implementation to generate an image! If you can't get it to work any sort of generative adversarial network will do. Bonus points for getting a more recent GAN model to work. Submit your Github link in the comments section. Good luck!
+
+
+## Overview
+
+
+This is the code for [this](https://youtu.be/PhCM3qoRZHE) video on Youtube by Siraj Raval on Progressively Growing Generative Adversarial Networks.
+
 ## Progressive Growing of GANs for Improved Quality, Stability, and Variation
 **Tero Karras** (NVIDIA), **Timo Aila** (NVIDIA), **Samuli Laine** (NVIDIA), **Jaakko Lehtinen** (NVIDIA and Aalto University)
 
@@ -7,7 +17,7 @@
 
 **Abstract:**
 <br>
-*We describe a new training methodology for generative adversarial networks. The key idea is to grow both the generator and discriminator progressively: starting from a low resolution, we add new layers that model increasingly fine details as training progresses. This both speeds the training up and greatly stabilizes it, allowing us to produce images of unprecedented quality, e.g., CelebA images at 1024². We also propose a simple way to increase the variation in generated images, and achieve a record inception score of 8.80 in unsupervised CIFAR10. Additionally, we describe several implementation details that are important for discouraging unhealthy competition between the generator and discriminator. Finally, we suggest a new metric for evaluating GAN results, both in terms of image quality and variation. As an additional contribution, we construct a higher-quality version of the CelebA dataset.*
+*We describe a new training methodology for generative adversarial networks. The key idea is to grow both the generator and discriminator progressively: starting from a low resolution, we add new layers that model increasingly fine details as training progresses. This both speeds the training up and greatly stabilizes it, allowing us to produce images of unprecedented quality, e.g., CelebA images at 1024Â². We also propose a simple way to increase the variation in generated images, and achieve a record inception score of 8.80 in unsupervised CIFAR10. Additionally, we describe several implementation details that are important for discouraging unhealthy competition between the generator and discriminator. Finally, we suggest a new metric for evaluating GAN results, both in terms of image quality and variation. As an additional contribution, we construct a higher-quality version of the CelebA dataset.*
 
 ## Links
 
@@ -21,3 +31,7 @@
 We are in the process of setting up a new TensorFlow-based implementation in this branch. The code is not in a fully usable state yet -- please check back in a few days.
 
 In the meantime, please refer to the [original Theano-based implementation](https://github.com/tkarras/progressive_growing_of_gans/tree/original-theano-version).
+
+## Credits
+
+The credits for this code go to [tkarras](https://github.com/tkarras/progressive_growing_of_gans). I've merely created a wrapper to get people started. 
